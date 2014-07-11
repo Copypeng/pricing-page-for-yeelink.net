@@ -37,17 +37,26 @@ a {
   z-index: 1;
 }
 .row .pricing-widget .pricing-head {
-  background: #5cb85c;
+  background: #3591ca;
   padding: 6px 20px;
   font-size: 18px;
   text-align: center;
   color: #ffffff;
 }
+.row .pricing-widget .pricing-head.primary {
+  background: #52b5d5;
+}
+.row .pricing-widget .pricing-head.enterpri {
+  background: #1f5f9f;
+}
+.row .pricing-widget .pricing-head.vip {
+  background: #1a3e7b;
+}
 .row .pricing-widget .pricing-body {
   background: #fff;
 }
 .row .pricing-widget .pricing-cost {
-  background: #4cae4c;
+  background: #44a3d5;
   text-align: center;
   padding: 20px;
   border-bottom: 1px solid #efefef;
@@ -59,6 +68,15 @@ a {
   font-size: 18px;
   color: #ffffff;
   min-height: 125px;
+}
+.row .pricing-widget .pricing-cost.primary {
+  background: #64c3de;
+}
+.row .pricing-widget .pricing-cost.enterpri {
+  background: #2972b0;
+}
+.row .pricing-widget .pricing-cost.vip {
+  background: #234e8e;
 }
 .row .pricing-widget .pricing-cost strong {
   font-size: 30px;
